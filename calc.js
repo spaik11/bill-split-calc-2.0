@@ -1,9 +1,10 @@
-calc = prompt('Please input the bill, the tip and how many people to split it with.').split(' ')
+calc = prompt('Please input the bill, the tip % and how many people to split it with.').split(' ')
 
-const bill = Number(calc[0])
-const tip = Number(calc[1])
-const people = Number(calc[2])
+let bill = Number(calc[0])
+let tip = Number(calc[1])
+let people = Number(calc[2])
 
+console.log(calc)
 
-const result = theTip(bill, tip, people)
+const result = billSplitCalc(bill, tip, people)
 document.querySelector('h1').innerText = result;
