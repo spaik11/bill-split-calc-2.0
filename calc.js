@@ -4,7 +4,5 @@ let bill = Number(calc[0])
 let tip = Number(calc[1])
 let people = Number(calc[2])
 
-console.log(calc)
-
 const result = billSplitCalc(bill, tip, people)
 document.querySelector('h1').innerText = result;
