@@ -1,4 +1,4 @@
-calc = prompt('Please input the bill, the tip % and how many people to split it with.').split(' ')
+calc = prompt('Please input the bill, the tip % (even if its 0) and how many people to split it with.').split(' ')
 
 let bill = Number(calc[0])
 let tip = Number(calc[1])
